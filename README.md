@@ -1,50 +1,27 @@
-# Welcome to your Expo app 👋
+# Food App
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+Este é um projeto de estudo desenvolvido para integrar o **Tailwind CSS** com **React Native Expo**, utilizando o **JSON Server** para simular uma API. O objetivo principal é explorar a flexibilidade e eficiência do Tailwind CSS no estilo de componentes no ambiente React Native.
 
-## Get started
+## 📋 Funcionalidades
 
-1. Install dependencies
+-   Configuração e integração do Tailwind CSS.
+-   Estilização responsiva para aplicativos móveis.
+-   Consumo de uma API simulada com JSON Server.
+-   Duas rotas disponíveis: `/foods` e `/restaurants`.
 
-   ```bash
-   npm install
-   ```
+## 🚀 Tecnologias Utilizadas
 
-2. Start the app
+-   **React Native** com Expo.
+-   **Tailwind CSS** para estilização.
+-   **JSON Server** para simulação de API.
 
-   ```bash
-    npx expo start
-   ```
+## 📁 Estrutura de Dados
 
-In the output, you'll find options to open the app in a
+O arquivo `db.json`, localizado na raiz do projeto, contém os dados simulados para as rotas:
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+-   **Foods:** informações sobre os alimentos.
+-   **Restaurants:** dados de restaurantes.
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+## 🏗️ Objetivo
 
-## Get a fresh project
-
-When you're ready, run:
-
-```bash
-npm run reset-project
-```
-
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+Este projeto foi criado com fins educacionais, focado em aprimorar habilidades na integração do Tailwind CSS com React Native e no consumo de APIs simuladas.
